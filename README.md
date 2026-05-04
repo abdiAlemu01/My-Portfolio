@@ -68,8 +68,8 @@ Short explanation.
 
 ## 🌐 Connect With Me
 
-- LinkedIn: [Your LinkedIn]
-- GitHub: [Your GitHub]
+- LinkedIn: [https://www.linkedin.com/in/abdi-alemu-82063a33b/]
+- GitHub: [https://github.com/abdiAlemu01]
 - Twitter: [Optional]
 
 ---

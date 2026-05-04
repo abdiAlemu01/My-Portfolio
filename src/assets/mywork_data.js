@@ -5,6 +5,7 @@ import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
 import schoolImage from '../assets/schoolImage.svg.png'
 import ecommerceImage from "../assets/EcommerceImage.png"
+import netflixImage from "../assets/netflixapp.png"
 
 const mywork_data = [
     {
@@ -22,12 +23,13 @@ const mywork_data = [
     {
         w_no:3,
         w_name:"Web design",
-        w_img:project3_img
+        w_img:netflixImage ,
+        link:"https://netflix-app-uzwu.onrender.com/"
     },
     {
         w_no:4,
         w_name:"Web design",
-        w_img:project4_img
+        w_img:project4_img,
     },
     {
         w_no:5,

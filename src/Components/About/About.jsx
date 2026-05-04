@@ -63,14 +63,15 @@ const About = () => {
                 <h1>3+</h1>
                 <p>YEARS OF EXPERIENCE</p>
             </div>
+            
             <hr/>
             <div className="about_achievement">
-                <h1>33+</h1>
+                <h1>10+</h1>
                 <p>PROJECTS COMPELETED</p>
             </div>
             <hr/>
             <div className="about_achievement">
-                <h1>6+</h1>
+                <h1>2+</h1>
                 <p>HAPPY CLIENTS</p>
             </div>
         </div>
