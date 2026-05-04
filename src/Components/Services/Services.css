@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    padding-top: 1px;
 }
 .services_title{
     position: relative;
@@ -29,7 +30,13 @@
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
+}
+.services_format.clickable{
     cursor: pointer;
+}
+.services_format.clickable:hover{
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
 }
 .services_coontainer{
     display: grid;
@@ -61,6 +68,68 @@
     gap: 20px;
     align-items: center;
     margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services_readmore:hover{
+    transform: translateX(5px);
+}
+.services_readmore p{
+    font-weight: 600;
+}
+.view_project_btn{
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.26%);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(180, 21, 255, 0.3);
+    margin-top: 10px;
+}
+.view_project_btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(180, 21, 255, 0.5);
+}
+.project_badge{
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(0, 255, 0, 0.1);
+    border: 1px solid rgba(0, 255, 0, 0.3);
+    border-radius: 20px;
+    color: #00ff00;
+    font-size: 14px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+.project_link_display{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 15px;
+    background: rgba(0, 255, 0, 0.05);
+    border: 1px solid rgba(0, 255, 0, 0.3);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.link_label{
+    color: #00ff00;
+    font-size: 14px;
+    font-weight: 600;
+}
+.project_url{
+    color: #0088cc;
+    font-size: 14px;
+    text-decoration: none;
+    word-break: break-all;
+    transition: color 0.3s ease;
+}
+.project_url:hover{
+    color: #00ff00;
+    text-decoration: underline;
 }
 .services_format:hover{
     border: 2px solid #ff00ff;

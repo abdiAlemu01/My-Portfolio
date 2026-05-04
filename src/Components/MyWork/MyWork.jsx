@@ -13,9 +13,9 @@ const MyWork = () => {
       <div className='mywork_container'>
         {
           myWork.map((work, index) => {
-            if (index === 0) {
+            if (work.link) {
               return (
-                <a key={index} href="https://github.com/abdithedeveloper1/Netflix-Clone-2024.git" target="_blank" rel="noopener noreferrer">
+                <a key={index} href={work.link} target="_blank" rel="noopener noreferrer">
                   <img src={work.w_img} alt="project" />
                 </a>
               )

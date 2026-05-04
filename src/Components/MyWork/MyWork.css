@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 80px;
     margin: 80px 10pxpx;
-    
+    padding-top: 1px;
 }
 .mywork_title{
     position: relative;
